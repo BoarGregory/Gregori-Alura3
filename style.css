@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+:root{
+    --cor-de-principal: rgb(0, 255, 0);
+    --cor-fundo: black;
+    --texto:rgb(255, 255, 255);
+    --cor-texto: rgb(1, 43, 24);
+    --fundo-de-alternativa: rgb(0, 255, 0);
+    --Rajdhani: "Rajdhani", sans-serif;
+  
+}
+body{
+    background-color: var(--cor-fundo);
+    color:var(--texto);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+
+}
+.caixa-principal{
+    background-color: var(--cor-texto);
+    width: 90%;
+    max-width: 600px;
+    text-align: center;
+    padding: 20px;
+
+}
+h1{
+    color: var(--cor-de-principal);
+}
+button{
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: var(--cor-fundo);
+    color: var(--cor-de-principal);
+
+}
